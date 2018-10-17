@@ -1,0 +1,12 @@
+debug:
+  true
+
+mybatis:
+  type-aliases-package: com.wubin.entity
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/testspringbootmybatis
+    username: root
+    password: 3306
